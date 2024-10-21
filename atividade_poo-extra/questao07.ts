@@ -1,14 +1,14 @@
+//Considerando o exemplo da classe Retangulo dos slides, implemente um método
+//adicional chamado que calcule o perímetro do retângulo. Teste os métodos do
+//retângulo.
 class Retangulo {
     l1: number = 0;
     l2: number = 0;
-
-    // Método para calcular a área
-    calcularArea(): number {
+    
+    calcularArea(): number {   // Método para calcular a área
         return this.l1 * this.l2;
     }
-
-    // Método para calcular o perímetro
-    calcularPerimetro(): number {
+    calcularPerimetro(): number {   // Método para calcular o perímetro
         return 2 * (this.l1 + this.l2);
     }
 }
