@@ -1,6 +1,6 @@
 # Exercício de POO/ 02
 ## 1) Identifique o nome do conceito representado pelo texto abaixo:
-a) Abstração   b)Encapsulamento    c)Construtor
+a) Abstração   b) Encapsulamento    c) Construtor
 
 ## 2) Assinale V ou F:
 (F) (F) (V) (F) (F)
