@@ -13,5 +13,7 @@
 #### O objeto para o qual c1 apontava originalmente não possui mais referências apontando para ele. Após a linha c1 = c2, a variável c1 passa a apontar para o mesmo objeto que c2. Sendo assim, ele se torna elegível para a coleta de lixo sendo removido da memória.
 
 
+## 11. A abordagem da questão 9 é retornar códigos de erro ou acerto. Já a da questão 10 é desconsiderar a alteração. Quais das duas você acha mais correta? Compare com seus códigos escritos em outras disciplinas.
+### Questão 9 é mais apropriada para sistemas críticos, onde cada ação precisa ser confirmada, como sistemas bancários. Questão 10 é útil em sistemas com menor necessidade de controle detalhado, onde o estado do objeto é suficiente para validar operações.
 
 
