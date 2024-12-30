@@ -121,15 +121,4 @@ export class Banco {
             conta_dest.saldo += valor;
         }
     }
-    excluirConta(numeroConta: string): void {
-        const conta = this.consultarConta(numeroConta);
-        if (conta) {  //desvincular o cliente da conta
-            if (conta.cliente) conta.cliente.contas = conta.cliente.contas.filter(c => c !== conta);
-            
-            this.contas = this.contas.filter(c => c.numero !== numeroConta);
-            console.log(`Conta ${numeroConta} excluída.`);
-        } else {
-            console.log('Conta não encontrada.');
-        }
-    }
 }
